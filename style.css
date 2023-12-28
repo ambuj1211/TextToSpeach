@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(55deg, rgb(182, 181, 181),rgb(31, 31, 31));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: -10px;
+    margin-bottom: 50px;
+    color: white;
+}
+.hero h1 span{
+    color: #000;
+}
+textarea{
+    width: 350px;
+    height: 150px;
+    max-width: 600px;
+    max-height: 250px;
+    background: linear-gradient(135deg, rgb(22, 22, 22), rgb(155, 154, 154));
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    resize: none;
+}
+.row{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    background: linear-gradient(135deg, rgb(33,33,33),rgb(155,155,155));
+    outline: 0;
+    border: 0;
+    font-size: 18px;
+    padding: 10px 10px 10px 20px;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 2px 2px #fff;
+    color: white;
+    font-weight: 600;
+    display: flex;
+}
+button:hover{
+    background: linear-gradient(135deg, rgb(155,155,155),rgb(33,33,33));
+    box-shadow: 2px 2px 2px #fff inset;
+    color: rgb(230, 222, 149);
+}
+
+
+select{
+    flex: 1;
+    width: 70%;
+    background: linear-gradient(135deg, rgb(33,33,33),rgb(155,155,155));
+    height: 40px;
+    padding: 0,10px;
+    outline: 0;
+    border: 0;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+}
