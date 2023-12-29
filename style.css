@@ -78,8 +78,3 @@ select{
     font-weight: 600;
     color: #fff;
 }
-.bottom-paragraph{
-    position: absolute;
-  bottom: 0;
-  width: 100%;
-}
